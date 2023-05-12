@@ -12,4 +12,71 @@ Escenario 1: Ingrese la información de los ciclistas de una categoría. Dado qu
 
 <p align="left">  <img src="https://i.ibb.co/xCVFqCT/Diagrama-en-blanco-1.png">  </p>
 
+# Descripcion Caso de uso:
+
+Nombre: Calcular Promedio Notas Estudiantes
+Actores: Coordinador Académico
+Propósito: Guardar identificación, nombre, curso y tres notas del
+Estudiante para calcular su promedio.
+Curso Normal de Eventos:
+1. El Coordinador ingresa la cantidad de estudiantes.
+2. El Coordinador ingresa la identificación, nombre, curso, la nota 1,
+la nota 2 y la nota 3 del Estudiante.
+3. Se calcula el promedio a partir de:
+( ∑(nota 1, nota 2, nota 3) / Total Notas) / Cantidad Estudiantes
+4. Se Muestra el promedio de los Estudiantes del Curso
+Postcondiciones: Promedio de Notas Calculado
+
 <p align="left">  <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">  </p>
+
+
+************************************
+codigo:
+
+import java.util.Scanner;
+public class EstudianteEstr
+{
+    public static void main(String[] args){
+        
+        Scanner sc = new Scanner(System.in);
+        String[] identificaciones = new String[50];
+        String[] nombres = new String[50];
+        String[] cursos = new String[50];
+        double[] notauno = new double[50];
+        double[] notados = new double[50];
+        double[] notatres = new double[50];
+        
+        int numeroEstudiantes;
+        String identificacion, nombre, curso;
+        double nota1, nota2, nota3;
+        double promedio = 0;
+        System.out.println("Digite la cantidad de estudiantes: ");
+        numeroEstudiantes = sc.nextInt();
+        for(int i = 0; i < numeroEstudiantes; i++){
+            System.out.println("Digite la identificacion del estudiante: ");
+            identificacion = sc.next();
+            System.out.println("Digite el nombre del estudiante: ");
+            nombre = sc.next();
+            System.out.println("Digite el curso del estudiante: ");
+            curso = sc.next();
+            System.out.println("Digite la nota uno del estudiante: ");
+            nota1 = sc.nextDouble();
+            System.out.println("Digite la nota dos del estudiante: ");
+            nota2 = sc.nextDouble();
+            System.out.println("Digite la nota tres del estudiante: ");
+            nota3 = sc.nextDouble();
+            identificaciones[i] = identificacion;
+            nombres[i] = nombre;
+            cursos[i] = curso;
+            notauno[i] = nota1;
+            notados[i] = nota2;
+            notatres[i] = nota3;
+        }
+        for(int i = 0; i < numeroEstudiantes; i++){
+            promedio = promedio + ((notauno[i] + notados[i] + notatres[i]) / 3) / numeroEstudiantes;
+        }
+        System.out.println("El promedio de notas es: " + promedio);
+    }
+}
+
+****************************************************
