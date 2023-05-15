@@ -6,6 +6,8 @@ Yo *como* Entrenador de Ciclismo. *Quiero* poder medir tres tiempos de diferente
 
 Escenario 1: Ingrese la información de los ciclistas de una categoría. Dado que soy un Entrenador de un equipo de ciclismo y ingreso correctamente el dorsal del ciclista y que ingreso correctamente el nombre del ciclista y que ingreso correctamente los tres tiempos obtenidos. Cuando seleccione la opción calcular promedio entonces debo poder guardar la información del ciclista como: su dorsal y el nombre completo. y el tiempo uno y el tiempo dos y el tiempo tres y obtener el promedio de estos tres tiempos y calcular el tiempo total de los tiempos ingresados
 
+<p align="left">  <img src="https://i.ibb.co/jTGXmKn/hu.png">  </p>
+
 # Caso de usuario:
 
 
