@@ -41,7 +41,6 @@ tiempo 2 y tiempo 3 del ciclista.
 4. Se Muestra el proemedio de los ciclistas de su categoria,
 Postcondiciones: Promedio de tiempos Calculado.
 
-<p align="left">  <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">  </p>
 
 
 # Diagrama de flujo: 
@@ -84,52 +83,51 @@ finPara
 Imprimir: ‘El promedio es:’ + promedio  
 
 ************************************
-codigo:
-
+# Codigo del ejercicio personalizado en programacion estructurado en java:
+```
 import java.util.Scanner;
-public class EstudianteEstr
+
+public class CiclistaEstr
 {
-    public static void main(String[] args){
+   public static void main(String[] args){
         
         Scanner sc = new Scanner(System.in);
-        String[] identificaciones = new String[50];
+        String[] dorsales = new String[50];
         String[] nombres = new String[50];
-        String[] cursos = new String[50];
-        double[] notauno = new double[50];
-        double[] notados = new double[50];
-        double[] notatres = new double[50];
+        String[] categorias = new String[50];
+        double[] tiempouno = new double[50];
+        double[] tiempodos = new double[50];
+        double[] tiempotres = new double[50];
         
-        int numeroEstudiantes;
-        String identificacion, nombre, curso;
-        double nota1, nota2, nota3;
+        int numciclistas;
+        String dorsal, nombre, categoria;
+        double tiempo1, tiempo2, tiempo3;
         double promedio = 0;
-        System.out.println("Digite la cantidad de estudiantes: ");
-        numeroEstudiantes = sc.nextInt();
-        for(int i = 0; i < numeroEstudiantes; i++){
-            System.out.println("Digite la identificacion del estudiante: ");
-            identificacion = sc.next();
-            System.out.println("Digite el nombre del estudiante: ");
+        System.out.println("Digite la cantidad de ciclistas: ");
+        numciclistas = sc.nextInt();
+        for(int i = 0; i < numciclistas; i++){
+            System.out.println("Digite el dorsal del ciclistas: ");
+            dorsal = sc.next();
+            System.out.println("Digite el nombre del ciclista: ");
             nombre = sc.next();
-            System.out.println("Digite el curso del estudiante: ");
-            curso = sc.next();
-            System.out.println("Digite la nota uno del estudiante: ");
-            nota1 = sc.nextDouble();
-            System.out.println("Digite la nota dos del estudiante: ");
-            nota2 = sc.nextDouble();
-            System.out.println("Digite la nota tres del estudiante: ");
-            nota3 = sc.nextDouble();
-            identificaciones[i] = identificacion;
+            System.out.println("Digite el categoria a la que pertenece el ciclista: ");
+            categoria = sc.next();
+            System.out.println("Digite el tiempo uno del ciclista: ");
+            tiempo1 = sc.nextDouble();
+            System.out.println("Digite el tiempo dos del ciclista: ");
+            tiempo2 = sc.nextDouble();
+            System.out.println("Digite el tiempo tres del ciclista: ");
+            tiempo3 = sc.nextDouble();
+            dorsales[i] = dorsal;
             nombres[i] = nombre;
-            cursos[i] = curso;
-            notauno[i] = nota1;
-            notados[i] = nota2;
-            notatres[i] = nota3;
+            categorias[i] = categoria;
+            tiempouno[i] = tiempo1;
+            tiempodos[i] = tiempo2;
+            tiempotres[i] = tiempo3;
         }
-        for(int i = 0; i < numeroEstudiantes; i++){
-            promedio = promedio + ((notauno[i] + notados[i] + notatres[i]) / 3) / numeroEstudiantes;
+        for(int i = 0; i < numciclistas; i++){
+            promedio = promedio + ((tiempouno[i] + tiempodos[i] + tiempotres[i]) / 3) / numciclistas;
         }
-        System.out.println("El promedio de notas es: " + promedio);
-    }
 }
-
-****************************************************
+}
+```
