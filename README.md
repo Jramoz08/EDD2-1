@@ -134,3 +134,7 @@ public class CiclistaEstr
 }
 }
 ```
+*******************************************************************
+Funcionamiento del Codigo:
+<p align="left">  <img src="https://i.ibb.co/pRmvjDJ/code1.png">  </p>
+
