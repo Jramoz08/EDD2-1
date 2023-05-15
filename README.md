@@ -128,6 +128,9 @@ public class CiclistaEstr
         for(int i = 0; i < numciclistas; i++){
             promedio = promedio + ((tiempouno[i] + tiempodos[i] + tiempotres[i]) / 3) / numciclistas;
         }
+        
+        System.out.println("El promedio de tiempo del grupo es: "+ promedio);
+            
 }
 }
 ```
