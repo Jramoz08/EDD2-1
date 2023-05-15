@@ -50,38 +50,38 @@ Postcondiciones: Promedio de tiempos Calculado.
 
 
 # Pseudocodigo: 
-Caracteres: dorsales [50], nombres[50], categorias[50]
-real: tiempouno[50], tiempodos[50], tiempotres[50]
-caracteres: dorsal, nombre, categoria
-Entero: numciclistas, i
-real: tiempo1, tiempo2, tiempo3, promedio <- 0
-imprimir: "Digite el numero de ciclistas: "
-asignar: numciclistas
-para i=0 hasta numciclistas - 1, 1
-imprimir: "Digite el dorsal del ciclista: "
-asignar: dorsal
-Imprimir: ‘Digite el nombre del ciclista:’
-Asignar: nombre
-Imprimir: ‘Digite la categoria del ciclista:’
-Asignar: categoria
-Imprimir: ‘Digite el tiempo 1 del ciclistas:’
-Asignar: tiempo1
-Imprimir: ‘Digite el tiempo 2 del ciclistas:’
-Asignar: tiempo2
-Imprimir: ‘Digite el tiempo 3 del ciclistas’
-Asignar: tiempo3
-dorsales[i] <- dorsal
-nombres [i] <- nombre
-categorias [i] <- categoria
-tiempouno[i] <- tiempo1
-tiempodos[i] <- tiempo2
-tiempotres[i] <- tiempo3
-finPara
-Para i=0 hasta numciclistas -1, 1
-promedio <-
-promedio +((tiempouno[i]+tiempodos[i]+tiempotres[i])/3)numciclistas
-finPara
-Imprimir: ‘El promedio es:’ + promedio
+Caracteres: dorsales [50], nombres[50], categorias[50]  
+real: tiempouno[50], tiempodos[50], tiempotres[50]  
+caracteres: dorsal, nombre, categoria  
+Entero: numciclistas, i  
+real: tiempo1, tiempo2, tiempo3, promedio <- 0  
+imprimir: "Digite el numero de ciclistas: "  
+asignar: numciclistas  
+para i=0 hasta numciclistas - 1, 1  
+imprimir: "Digite el dorsal del ciclista: "  
+asignar: dorsal  
+Imprimir: ‘Digite el nombre del ciclista:’  
+Asignar: nombre  
+Imprimir: ‘Digite la categoria del ciclista:’  
+Asignar: categoria  
+Imprimir: ‘Digite el tiempo 1 del ciclistas:’  
+Asignar: tiempo1  
+Imprimir: ‘Digite el tiempo 2 del ciclistas:’  
+Asignar: tiempo2  
+Imprimir: ‘Digite el tiempo 3 del ciclistas’  
+Asignar: tiempo3  
+dorsales[i] <- dorsal  
+nombres [i] <- nombre  
+categorias [i] <- categoria  
+tiempouno[i] <- tiempo1  
+tiempodos[i] <- tiempo2  
+tiempotres[i] <- tiempo3  
+finPara  
+Para i=0 hasta numciclistas -1, 1  
+promedio <-  
+promedio +((tiempouno[i]+tiempodos[i]+tiempotres[i])/3)numciclistas  
+finPara  
+Imprimir: ‘El promedio es:’ + promedio  
 
 ************************************
 codigo:
