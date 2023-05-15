@@ -16,18 +16,17 @@ Escenario 1: Ingrese la información de los ciclistas de una categoría. Dado qu
 
 # Descripcion Caso de uso:
 
-Nombre: Calcular Promedio Notas Estudiantes
-Actores: Coordinador Académico
-Propósito: Guardar identificación, nombre, curso y tres notas del
-Estudiante para calcular su promedio.
-Curso Normal de Eventos:
-1. El Coordinador ingresa la cantidad de estudiantes.
-2. El Coordinador ingresa la identificación, nombre, curso, la nota 1,
-la nota 2 y la nota 3 del Estudiante.
+Nombre: Calcular Tiempos de una carrera de ciclismo
+Actores: Entrenador De Ciclismo.
+Propósito: Guardar dorsal, nombre, categoria y tres tiempos del ciclista para calcular su promedio.
+Carrera normal Eventos:
+1. El entrenador ingresa la cantidad de corredores.
+2. El entrenador ingresa el dorsal, nombre, categoria, tiempo 1,
+tiempo 2 y tiempo 3 del ciclista.
 3. Se calcula el promedio a partir de:
-( ∑(nota 1, nota 2, nota 3) / Total Notas) / Cantidad Estudiantes
-4. Se Muestra el promedio de los Estudiantes del Curso
-Postcondiciones: Promedio de Notas Calculado
+( ∑(tiempo 1, tiempo 2, tiempo 3) / tiempo total) / Cantidad corredores
+4. Se Muestra el proemedio de los ciclistas de su categoria,
+Postcondiciones: Promedio de tiempos Calculado.
 
 <p align="left">  <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">  </p>
 
