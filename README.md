@@ -1,3 +1,16 @@
+# Enunciado:
+
+En su labor como programador de software ha sido elegido para el desarrollo de una aplicación que
+necesita un Entrenador de ciclismo de la liga de ciclismo de bogota, que desea calcular el promedio de 3 (tres) tiempo de un ciclista en una carrera determinada de su categoria correspondiente. Este entrenador evalúa a los
+ciclistas de forma permanente y calcula el promedio general de sus corredores. Como información básica
+de cada ciclista se debe registrar el número de dorsal, su nombre y su categoria.
+Aclaraciones:
+• Se supondrá que la aplicación solo se requiere para calcular el promedio de una unica carrera
+especifica.
+• Para efectos de mantener la simplicidad del ejemplo no se contemplan manejar persistencia
+en el almacenamiento de los datos.
+• No se realiza validación, ni se verifica calidad en los datos ingresados.
+
 # Historia de Usuario:
 
 Yo *como* Entrenador de Ciclismo. *Quiero* poder medir tres tiempos de diferentes etapas de un ciclista en especifico y obtener el promedio del tiempo total de las tres. 
