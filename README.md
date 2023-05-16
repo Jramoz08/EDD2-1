@@ -23,17 +23,17 @@ en el almacenamiento de los datos.
 
 # Descripcion Caso de uso:
 
-Nombre: Calcular Tiempos de una carrera de ciclismo
-Actores: Entrenador De Ciclismo.
-Propósito: Guardar dorsal, nombre, categoria y tres tiempos del ciclista para calcular su promedio.
-Carrera normal Eventos:
-1. El entrenador ingresa la cantidad de corredores.
-2. El entrenador ingresa el dorsal, nombre, categoria, tiempo 1,
-tiempo 2 y tiempo 3 del ciclista.
-3. Se calcula el promedio a partir de:
-( ∑(tiempo 1, tiempo 2, tiempo 3) / tiempo total) / Cantidad corredores
-4. Se Muestra el proemedio de los ciclistas de su categoria,
-Postcondiciones: Promedio de tiempos Calculado.
+Nombre: Calcular Tiempos de una carrera de ciclismo  
+Actores: Entrenador De Ciclismo.  
+Propósito: Guardar dorsal, nombre, categoria y tres tiempos del ciclista para calcular su promedio.  
+Carrera normal Eventos:  
+1. El entrenador ingresa la cantidad de corredores.  
+2. El entrenador ingresa el dorsal, nombre, categoria, tiempo 1,  
+tiempo 2 y tiempo 3 del ciclista.  
+3. Se calcula el promedio a partir de:  
+( ∑(tiempo 1, tiempo 2, tiempo 3) / tiempo total) / Cantidad corredores  
+4. Se Muestra el proemedio de los ciclistas de su categoria,  
+Postcondiciones: Promedio de tiempos Calculado.  
 
 
 
